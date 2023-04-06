@@ -1,11 +1,11 @@
 #!/usr/bin/python3
-'''Minimum Operations python3 challenge'''
+'''Program to find Minimum Operations'''
 
 
 def minOperations(n):
-    '''calculates the fewest number of
+    '''checks the fewest number of
     operations needed to result in exactly n H
-    characters in this file.
+    characters.
     Returns:
         Integer : if n is impossible to achieve, return 0
     '''
