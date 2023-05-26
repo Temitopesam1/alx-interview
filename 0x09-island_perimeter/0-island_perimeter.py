@@ -10,7 +10,7 @@ def island_perimeter(grid):
     returns:
         perimetor or None if error
     '''
-        count = 0
+    count = 0
     if not isinstance(grid, list):
         return 0
     else:
