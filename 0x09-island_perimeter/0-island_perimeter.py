@@ -10,6 +10,13 @@ def island_perimeter(grid):
     returns:
         perimetor or None if error
     '''
+    count = 0
+    for item in grid:
+        for elem in item:
+            if elem == 1:
+                count += elem
+    count += 1
+    return 2 * count
 #     grid_dup = []
 #     length = 0
 #     breadth = 0
@@ -28,10 +35,3 @@ def island_perimeter(grid):
 #     for item in get_length:
 #         breadth += item[0]
 #     return 2 * (length + breadth)
-    count = 0
-    for elem in grind:
-        for item in elem:
-            if item == 1:
-                counter += item
-    counter += 1
-    return 2 * counter
