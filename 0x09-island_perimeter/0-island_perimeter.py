@@ -10,6 +10,28 @@ def island_perimeter(grid):
     returns:
         perimetor or None if error
     '''
+#     count = 0
+#     if not isinstance(grid, list):
+#         return 0
+#     else:
+#         if not len(grid) <= 100:
+#             return 0
+#         else:
+#             for item in grid:
+#                 if not isinstance(item, list):
+#                     return 0
+#                 else:
+#                     if not len(item) <= 100:
+#                         return 0
+#                     else:
+#                         for elem in item:
+#                             if not isinstance(elem, int):
+#                                 return 0
+#                             else:
+#                                 if elem == 1:
+#                                     count += elem
+#     count += 1
+#     return 2 * count
     grid_dup = []
     length = 0
     breadth = 0
